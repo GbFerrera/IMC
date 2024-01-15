@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ 
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMC</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<script src="./script.js" defer></script>
+
+</head>
+
+<body>
+
+  <div class="alert">
+
+    <span>Digite somente números</span>
+
+  </div>
+
+ <div class="card">
+  <form>
+
+  <main>
+
+
+     <div class="title">
+
+<h1>Cálculos de IMC</h1>
+
+       </div>
+
+      <div class="wrapper">
+
+  <label for="weight">Peso (Kg)</label>
+
+  <input placeholder="60" id="weight" type="text">
+
+
+       </div>
+
+     <div class="wrapper">
+
+   <label for="height">Altura (cm)</label>
+
+   <input placeholder="165" id="height" type="text">
+
+
+       </div>
+
+
+<button>
+  Calcular IMC
+  <img src="./seta.svg" alt="Seta decorativa">
+</button>
+
+
+  </main>
+
+
+</form>
+
+</div>  
+
+<div class="modal-wrapper">
+
+  <div class="modal-card">
+
+    <h2 class="title">
+    <button id="close">
+     <img src="./close.svg" alt="Seta de close">
+
+    </button>
+<span>Seu IMC é de 28</span>
+
+</h2>
+  </div>
+
+</div>
+
+</body>
+</html>
